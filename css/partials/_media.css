@@ -1,0 +1,58 @@
+@media screen and (max-width: 1000px) {
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; }
+  iframe {
+    width: 300px;
+    height: 300px; } }
+
+@media (max-width: 500px) {
+  .wrapper {
+    margin: 0 1%;
+    width: 98%; }
+  header ul {
+    width: 100%; }
+  header ul li {
+    display: list-item; }
+  section {
+    text-align: center; }
+  .home img {
+    width: 100%;
+    margin: 0 auto; }
+  .photos img {
+    width: 100%;
+    margin-right: 0; }
+  .portfolio img {
+    width: 100%; }
+  #about {
+    background-color: white;
+    background-image: none;
+    height: 2300px; }
+  #food {
+    background-color: black;
+    background-image: none;
+    height: 2000px; }
+  .column1, .column2, .column3, .column4 {
+    width: 100%; }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; }
+  iframe {
+    width: 350px;
+    height: 300px; }
+  .galleryItem {
+    width: 100%;
+    /* full width */
+    height: 600px;
+    /* height of carousel */ }
+  .gallery {
+    width: 500px;
+    height: 400px; }
+  .beerbottle {
+    width: 250px;
+    height: 500px;
+    margin-left: 0; } }

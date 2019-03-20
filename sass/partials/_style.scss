@@ -1,0 +1,315 @@
+	body {
+			font-family: 'Rubik', sans-serif;
+			font-size: 1.5rem;
+			background: white;
+			color: $accent-color;
+			line-height: 1.3;
+		}
+
+
+	html {
+			font-size: 10px;
+			font-size: 62.5%;
+
+		}
+
+
+	p {
+			font-size: 1.5rem;
+			line-height: 1.7;
+			margin: 0 0 1.5rem 0;
+		}
+
+	h1, h2, h3, h4, h5 {
+		  margin: 2rem 0 1.5rem;
+		  font-family: 'Poppins', sans-serif;
+		}
+
+	h1 { 
+		font-size: 3.5rem; 
+		}
+
+	h2 {
+	 font-size: 3rem; 
+		}
+
+	h3 { 
+		font-size: 2.4rem; 
+		}
+
+	h4 { 
+		font-size: 1.8rem;
+		}
+
+	h5 {
+		 font-size: 2.1rem; 
+	    }
+
+	.intro, .portfolio {
+		background-color: $primary-color;
+		}
+
+	.portfolio {
+		 padding-right:0;
+		 padding-left:0;
+		}
+		
+	.galleryItem {
+	width: 100%; /* full width */
+	height: 600px;
+	//min-height: 100vh;
+	
+		}
+
+	.gallery {
+			// width:1080px;
+			// width: 100vh;
+			min-height: 100vh;
+			width: 100%; 
+		}
+
+	.intro {
+			padding-top: 100px;
+		}
+
+	.intro h2 { 
+			font-size: 6rem; 
+		}
+
+	.about {
+			background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(beertap.jpg);
+			min-height: 100vh;
+			background-size: cover;
+			padding-top: 50px;
+			color: $accent-color;
+		}
+
+
+	.food {
+			background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url(beer_food.jpeg);
+			min-height: 100vh;
+			background-size: cover;
+			padding-top: 50px;
+			color: $accent-color;
+			
+		}
+
+	img {
+			width: 100%;
+		}
+//map Hour//
+ .mapHour {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+ }
+
+
+
+	//form//
+	.contactus1 {
+		padding-bottom: 30px;
+		margin-left: 10px;
+
+	}
+
+	.contactus2 {
+		padding-top: 60px;
+		text-align: left;
+	}
+
+	.mainform {
+		padding: 20px 0 60px;
+	}
+
+
+	input, textarea, label, button, select {
+		width: 100%;
+		display: block;
+	}
+
+	input, textarea, button, select {
+		/* We add a transparent border here so the input doesn't jump around on hover */
+		border: 1px solid black;
+		padding: 10px;
+	}
+
+	.extraSpace {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	}
+
+	.half {
+	width: calc(50% - 15px);
+	float: left;
+	}
+
+	.half:first-child {
+		margin-right: 30px;
+	}
+
+	label {
+		margin-bottom: 5px;
+		font-size: 12px;
+	}
+
+	.container {
+		margin: 20px 0;
+	}
+
+	.set {
+		width: 15%;
+		float: left;
+	}
+
+	.set label, .set input,
+	.check label, .check input {
+		float: left;
+		width: auto;
+	}
+
+	.set label, .check label {
+		margin-left: 10px;
+		font-size: 16px;
+	}
+
+	input[type="submit"], button {
+	color: $accent-color;
+	border: 1.5px solid $accent-color;
+	}
+
+	input[type="submit"]:hover, button:hover {
+	color: #efcd5b;
+	background: transparent;
+	}
+	
+	//
+	.column1, .column2{
+	// width: 40%;
+	// float:left;
+	margin-left: 3%;
+	//text-align: left;
+	line-height: 1.7;
+	}
+
+	.column1 {
+	margin-right: 3%;
+	padding-top: 30px;
+	}
+
+	// .row:after {
+	//     content: "";
+	//     display: table;
+	//     clear: both;
+	//     padding-bottom: 50px;
+	// }
+
+	iframe {
+	width: 400px;
+	height: 400px;
+	}
+
+	.beerbottle {
+		width: 250px;
+		height: 500px;
+		// margin-left: 80px;
+	}
+
+	.product-info {
+		// padding-top: 100px;
+		// padding-right: 150px;
+		padding: 100px;
+		// margin-left: 150px;
+		text-align: center;
+	}
+	//  .product {
+	// //	min-height: 100vh;
+	// 		display: flex;
+	// 		justify-content: center;
+	// 		flex-direction: row;
+	// 		flex-wrap: wrap;
+		
+	//  }
+	.foodmenu {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+			 column-count: 2;
+		display: block;
+		flex-direction: column;
+		flex-wrap: wrap;
+		// height: 100%;
+		//text-align: left;
+
+
+	 }
+	
+	.column3 {
+		// float:left;
+		// width:50%;
+	}
+
+	.column4 {
+		// width:50%;
+		// float:right;
+	}
+
+	.beerocenia {
+		width: 300px;
+		height: 500px;
+	}
+
+	.column3 {
+	// width: 40%;
+	float:left;
+	margin-left: 5%;
+	text-align: left;
+	line-height: 1.7;
+	}
+
+	// .column4 {
+	// width: 40%;
+	// float:left;
+	// margin-left: 5%;
+	// text-align: left;
+	// line-height: 1.7;
+	// margin-right: 50px;
+	
+	// }
+
+	.name {
+		font-size: 35px;
+		font-weight: 700;
+	}
+
+	.trait {
+	font-size: 25px;
+	color: grey;
+	}
+
+	.ABV {
+			font-size: 20px;
+			// color:;
+	}
+
+	.newsletter {
+
+		padding: 40px 30px 250px;
+		background: #2b2b2b;
+		color: $primary-color;
+		min-width: 100vw;
+	}
+
+	.news {
+		border-bottom: 1px solid #efcd5b;
+		padding-bottom: 10px;
+	}
+
+	.signup {
+		border: 2px solid #efcd5b ;
+		background-color: transparent;
+		color: $primary-color;
+	}
+
+
+

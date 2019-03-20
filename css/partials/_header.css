@@ -1,0 +1,37 @@
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  text-align: center; }
+
+header {
+  background: #FCFCFC;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+header a {
+  color: #222;
+  text-decoration: none; }
+
+header h1 {
+  float: left;
+  margin: 0; }
+
+header nav {
+  float: right; }
+
+header ul li {
+  float: left;
+  list-style: none;
+  margin: 0 10px;
+  text-transform: lowercase; }
+
+ul a:hover {
+  border-bottom: 3px solid #efcd5b;
+  padding-bottom: 10px; }

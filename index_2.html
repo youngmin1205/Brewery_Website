@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Plugins</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins:600|Rubik' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.1.2/flickity.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<style type="text/css">
+	.food {
+			background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url(beer_food.jpeg);}
+
+	.menu-item {
+ 		padding-bottom: 20px;
+ 		text-align: center;
+ 		color: white;
+ 		
+	}
+	.menu-name {
+		font-weight: bold;
+	}
+	span {
+		padding-left: 10px;
+	}
+</style>
+
+
+<body>
+
+	<header class="clearfix">
+		<div class="wrapper">
+			<h1><a href="#">CT Brewery</a></h1>
+			<nav>
+				<ul class="clearfix">
+						<li><a href="#portfolio">Home</a></li>
+						<li><a href="#intro">Contact Us</a></li>
+						<li><a href="#product">Beer</a></li>
+						<li><a href="#food">Food</a></li>
+						<li><a href="#about">About Us</a></li>
+						<!-- <li><a href="#blog">Blog</a></li> -->
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="portfolio" id="portfolio">
+		<div class="wrapper">
+		<!-- 	<h3>CorkTown Brewery</h3> -->
+			<div class="gallery js-flickity">
+				<div class="galleryItem"><img src="pub1.jpg" alt=""></div>
+				<div class="galleryItem"><img src="pub2.jpg" alt=""></div>
+				<div class="galleryItem"><img src="pub3.jpg" alt=""></div>
+				<div class="galleryItem"><img src="pub4.jpg" alt=""></div>
+				<div class="galleryItem"><img src="pub5.jpg" alt=""></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- This is the contact section -->
+	<section class="intro" id="intro">
+		<div class="wrapper">
+			<h3>Contact Us</h3> 
+				<div class="mapHour clearfix">
+					<div class= "column1">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5773.392222378548!2d-79.36457995346214!3d43.654490516074794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb3fbb9cc85f%3A0x50a93ae02faed24a!2z7Jio7YOA66as7JikIO2GoOuhoO2GoCDsvZTtgaztg4DsmrQ!5e0!3m2!1sko!2sca!4v1533906725909" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				
+					<div class= "contactus1 column2">
+						<div class="location">
+							<h5>Location</h5>
+							<p>10 Sandford Fleming Drive
+								Collingwood, ON.</p>
+						</div>
+						<div class="hour">
+							<h5>BrewPub Hours</h5>
+								<div class="hours">Sunday 12pm - 1am</div>
+								<div class="hours">Monday 12pm - Midnight</div>
+								<div class="hours">Tuesday 12pm - Midnight</div>
+								<div class="hours"> Wednesday 12pm - Midnight</div>
+								<div class="hours">Thursday 5pm - Midnight</div>
+								<div class="hours"> Friday 5pm - 1am</div>
+								<div class="hours"> Saturday 5pm - 1am</div>
+						</div>
+						<div class="hour">
+							<h5>Bottle Shop Hours</h5>
+								<div class="hours">Everyday 11am - 11pm</div>
+				
+						</div>
+					</div>
+				</div>
+				<hr>
+					<div class="contactus2">
+						<p>We love hearing from our patrons and value your opinions. Want to drop us a line? We have an excellent and detailed FAQ section that addresses lots of things you might be wondering about. But if you’ve already read those and still can’t find what you’re looking for, we’ll get a real live human to help you out.</p>
+						<p>But remember! We’re open on holidays/long weekends unless we tell you otherwise, we aren’t hiring at the moment, and we don’t take reservations/host events.</p>
+					</div>
+		</div>
+	</section>
+
+<!-- This is the form -->
+		<form action="" class="mainform">
+		<div class="wrapper1">
+			<div class="clearfix container">
+				<div class="half">
+					<label for="firstName">* First Name</label>
+					<input type="text" id="firstName" placeholder="Enter First Name">
+				</div>
+				<div class="half">
+					<label for="lastName">* Last Name</label>
+					<input type="text" id="lastName" placeholder="Enter Last Name">
+				</div>
+			</div>	
+			<div class="container">
+				<label for="email">* Email</label>
+				<input id="email" type="text" placeholder="Enter Email">
+			</div>
+			<div class="container">
+				<label for="message">* Message</label>
+				<textarea name="message" id="message" cols="30" rows="10" placeholder="Write a message"></textarea>
+			</div>
+			<div class="clearfix container extraSpace">
+				<div class="half">
+					<input type="submit" value="Submit">
+				</div>
+			</div>
+		</div>
+	</form>
+
+<!-- This is newsletter section -->
+	<div class="newsletter" >
+		<div class="wrapper">
+			<div class="half">
+			<h2 class= "news">NEWSLETTER</h2>
+			<p>Subscribe to receive exclusive offers and the latest news from Bandit Brewery.
+Don’t worry we don’t believe in SPAM either! We respect your privacy.</p>
+		</div>
+			<div class="half">
+			<form action="" id="newsform">
+				<!-- <label for="name">Name</label>
+				<input type="text" name="name"> -->
+				<br>
+				<label for="email"></label>
+				<input type="email" placeholder="your email address">
+				<!-- <input type="submit" value="Sign up"> -->
+				<br>
+				<button type="submit" form="newsform" value ="SignUp" class="signup">Sign up</button>
+			</form></div>
+		</div>
+	</div>
+
+<!-- This is the about section -->
+	<section class="product" id="product">
+		<div class="wrapper">
+					<div class="mapHour clearfix">
+						<div class= "column1 product-info">
+							<p class="name">Kingpost ESB</p>
+							<p class="trait">Extra Special Bitter </p>
+							<p class="ABV">5.8% ABV / 40 IBU</p>	
+								<div class="explain">
+									<!-- <h5 class="shipping">Free Shipping Worldwide</h5> -->
+									<br><br>
+									<button>View Product</button>
+								</div>
+
+						</div>
+						<div class= " column2">
+							<img src="Beer-Bottle.jpg" class="beerbottle">
+						</div>			
+					</div>
+		</div>
+	</section>
+
+	<!-- <section class="product">
+		<div class="wrapper">
+					
+					<div class="row clearfix">
+						<div class= "column1">
+
+							<img src="Beer-Bottle.jpg" class="beerbottle">
+							
+						</div>
+						</div>
+						<div class= "contactus1 column2"><p class="name">Downhill Pale Ale</p>	
+							<p>American Pale Ale</p>
+							<p>5.4% ABV / 33 IBU</p>
+							<div class="explain">
+						
+								<br><br>
+								<button>View Product</button>
+							</div>			
+						</div>
+		</div>
+	</section> -->
+<section class="food" id="food">
+		<div class="wrapper clearfix">
+			<h2 style="color:white;">Food</h2>
+			<br>
+				<div class="foodmenu clearfix">
+						<div class= "column3">
+							<div class="menu-items">
+								<div class="menu-item">
+									<div class="menu-name">OLIVES / HOUSE PICKLES <span class="menu-item-price-top"><span class="currency-sign"></span>5</span></div>
+									<div class="menu-item-description">daily butter</div>
+								</div>
+								<div class="menu-item">
+									<div class="menu-name">BEER BATTERED CHEESE  <span class="menu-item-price-top"><span class="currency-sign"></span>5</span></div>
+									<div class="menu-item-description">Ale battered curds, homemade ranch dressing</div>
+								</div>
+								<div class="menu-item">
+									<div class="menu-name">FIG &amp; WATERCRESS SALAD <span class="menu-item-price-top"><span class="currency-sign"></span>5</span> </div>
+									<div class="menu-item-description">figs, halloumi, watercress, pistachios, radicchio, baby lettuce</div>
+								</div>
+								<div class="menu-item">
+									<div class="menu-name">PANZANELLA SALAD <span class="menu-item-price-top"><span class="currency-sign"></span>5</span></div>
+									<div class="menu-item-description">Ontario half chicken, fresh baked biscuit, house pickles, white gravy</div>
+								</div>
+								<div class="menu-item">
+									<div class="menu-name">ROYALE WITH CHEESE <span class="menu-item-price-top"><span class="currency-sign"></span>15</span></div>
+									<div class="menu-item-description">⅓ &nbsp;lbs all beef patty, smoked American cheese, spicy thousand island, citrus pickled onion, shredded iceberg, house pickles, fresh cut fries</div>
+								</div>
+								<div class="menu-item">
+									<div class="menu-name">SPICY JACKFRUIT PULLED PORK SANDWICH <span class="menu-item-price-top"><span class="currency-sign"></span>15</span></div>
+									<div class="menu-item-description">jackfruit pulled “pork”, coleslaw, alabama white bbq sauce, kettle chips</div>
+								</div>
+						
+								<div class="menu-item">
+									<div class="menu-name">BUTTERMILK FRIED CHICKEN <span class="menu-item-price-top"><span class="currency-sign"></span>5</span></div>
+									<div class="menu-item-description">Ontario half chicken, fresh baked biscuit, house pickles, white gravy</div>
+								</div>
+								<div class="menu-item">
+									<div class="menu-name">BEER BATTERED CHEESE  <span class="menu-item-price-top"><span class="currency-sign"></span>5</span></div>
+									<div class="menu-item-description">Ale battered curds, homemade ranch dressing</div>
+								</div>
+								<div class="menu-item">
+									<div class="menu-name">FIG &amp; WATERCRESS SALAD <span class="menu-item-price-top"><span class="currency-sign"></span>5</span> </div>
+									<div class="menu-item-description">figs, halloumi, watercress, pistachios, radicchio, baby lettuce</div>
+								</div>
+								<div class="menu-item">
+									<div class="menu-name">PANZANELLA SALAD <span class="menu-item-price-top"><span class="currency-sign"></span>5</span></div>
+									<div class="menu-item-description">Ontario half chicken, fresh baked biscuit, house pickles, white gravy</div>
+								</div>
+								<div class="menu-item">
+									<div class="menu-name">ROYALE WITH CHEESE <span class="menu-item-price-top"><span class="currency-sign"></span>15</span></div>
+									<div class="menu-item-description">⅓ &nbsp;lbs all beef patty, smoked American cheese, spicy thousand island, citrus pickled onion, shredded iceberg, house pickles, fresh cut fries</div>
+								</div>
+								<div class="menu-item">
+									<div class="menu-name">SPICY JACKFRUIT PULLED PORK SANDWICH <span class="menu-item-price-top"><span class="currency-sign"></span>15</span></div>
+									<div class="menu-item-description">jackfruit pulled “pork”, coleslaw, alabama white bbq sauce, kettle chips</div>
+								</div>
+							</div>
+						</div>
+	</section>
+
+
+
+<section class="about" id="about">
+		<div class="wrapper clearfix">
+			<h2>About US</h2>
+			<br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae hic aperiam ipsum deleniti, molestiae culpa molestias. Sapiente autem magnam velit doloremque minima fugit, officiis quam dolore voluptatum, mollitia esse?
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae hic aperiam ipsum deleniti, molestiae culpa molestias. Sapiente autem magnam velit doloremque minima fugit, officiis quam dolore voluptatum, mollitia esse?
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae hic aperiam ipsum deleniti, molestiae culpa molestias. Sapiente autem magnam velit doloremque minima fugit, officiis quam dolore voluptatum, mollitia esse?
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae hic aperiam ipsum deleniti, molestiae culpa molestias. Sapiente autem magnam velit doloremque minima fugit, officiis quam dolore voluptatum, mollitia esse?
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae hic aperiam ipsum deleniti, molestiae culpa molestias. Sapiente autem magnam velit doloremque minima fugit, officiis quam dolore voluptatum, mollitia esse?
+		</p>	
+		</div>
+	</section>
+
+	<footer class="contact clearfix" id="contact"> <!-- <footer></footer> -->
+		<div class="wrapper">
+			<!-- <h3>reach out to us</h3>
+			<p>let's chat <a href="mailto:email@party.club">email@brewery.com</a></p> -->
+			<p>Copyright 2018 | corktown brewery All Rights Reserved</p>
+			<a href="facebook.com"><i class="fa fa-facebook fa-2x" aria-hidden="true" style="color:white;"></i></a> &nbsp;
+			<a href="instagram.com"><i class="fa fa-instagram fa-2x" aria-hidden="true" style="color:white;""></i> </a>&nbsp;
+			<a href="twitter.com"><i class="fa fa-twitter fa-2x" aria-hidden="true" style="color:white;"" ></i></a>&nbsp;
+			<a href="gmail.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true" style="color:white;"></i></a>&nbsp;	
+
+		</div>
+	</footer>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.1.2/flickity.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+
+<script>
+    $(function() {
+        $('.gallery').flickity({
+        	 wrapAround: true,
+        	 draggable: false;
+});
+    $('nav a').smoothScroll({
+    		offset: 100
+    });
+
+
+
+</script>
+
+</body>
+</html>

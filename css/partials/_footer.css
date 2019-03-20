@@ -1,0 +1,15 @@
+footer a {
+  color: black; }
+
+footer {
+  clear: both;
+  background-color: #282a2b;
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 999; }
+
+footer.contact {
+  background: #2b2b2b;
+  color: white; }

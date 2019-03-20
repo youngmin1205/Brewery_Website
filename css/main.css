@@ -1,0 +1,490 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  background: white;
+  color: black;
+  line-height: 1.3; }
+
+html {
+  font-size: 10px;
+  font-size: 62.5%; }
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  margin: 0 0 1.5rem 0; }
+
+h1, h2, h3, h4, h5 {
+  margin: 2rem 0 1.5rem;
+  font-family: 'Poppins', sans-serif; }
+
+h1 {
+  font-size: 3.5rem; }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 2.4rem; }
+
+h4 {
+  font-size: 1.8rem; }
+
+h5 {
+  font-size: 2.1rem; }
+
+.intro, .portfolio {
+  background-color: white; }
+
+.portfolio {
+  padding-right: 0;
+  padding-left: 0; }
+
+.galleryItem {
+  width: 100%;
+  /* full width */
+  height: 600px; }
+
+.gallery {
+  min-height: 100vh;
+  width: 100%; }
+
+.intro {
+  padding-top: 100px; }
+
+.intro h2 {
+  font-size: 6rem; }
+
+.about {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url(beertap.jpg);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(beertap.jpg);
+  background: -o-linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(beertap.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(beertap.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  padding-top: 50px;
+  color: black; }
+
+.food {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url(beer_food.jpeg);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(beer_food.jpeg);
+  background: -o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(beer_food.jpeg);
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(beer_food.jpeg);
+  min-height: 100vh;
+  background-size: cover;
+  padding-top: 50px;
+  color: black; }
+
+img {
+  width: 100%; }
+
+.mapHour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.contactus1 {
+  padding-bottom: 30px;
+  margin-left: 10px; }
+
+.contactus2 {
+  padding-top: 60px;
+  text-align: left; }
+
+.mainform {
+  padding: 20px 0 60px; }
+
+input, textarea, label, button, select {
+  width: 100%;
+  display: block; }
+
+input, textarea, button, select {
+  /* We add a transparent border here so the input doesn't jump around on hover */
+  border: 1px solid black;
+  padding: 10px; }
+
+.extraSpace {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.half {
+  width: calc(50% - 15px);
+  float: left; }
+
+.half:first-child {
+  margin-right: 30px; }
+
+label {
+  margin-bottom: 5px;
+  font-size: 12px; }
+
+.container {
+  margin: 20px 0; }
+
+.set {
+  width: 15%;
+  float: left; }
+
+.set label, .set input,
+.check label, .check input {
+  float: left;
+  width: auto; }
+
+.set label, .check label {
+  margin-left: 10px;
+  font-size: 16px; }
+
+input[type="submit"], button {
+  color: black;
+  border: 1.5px solid black; }
+
+input[type="submit"]:hover, button:hover {
+  color: #efcd5b;
+  background: transparent; }
+
+.column1, .column2 {
+  margin-left: 3%;
+  line-height: 1.7; }
+
+.column1 {
+  margin-right: 3%;
+  padding-top: 30px; }
+
+iframe {
+  width: 400px;
+  height: 400px; }
+
+.beerbottle {
+  width: 250px;
+  height: 500px; }
+
+.product-info {
+  padding: 100px;
+  text-align: center; }
+
+.foodmenu {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.beerocenia {
+  width: 300px;
+  height: 500px; }
+
+.column3 {
+  float: left;
+  margin-left: 5%;
+  text-align: left;
+  line-height: 1.7; }
+
+.name {
+  font-size: 35px;
+  font-weight: 700; }
+
+.trait {
+  font-size: 25px;
+  color: grey; }
+
+.ABV {
+  font-size: 20px; }
+
+.newsletter {
+  padding: 40px 30px 250px;
+  background: #2b2b2b;
+  color: white;
+  min-width: 100vw; }
+
+.news {
+  border-bottom: 1px solid #efcd5b;
+  padding-bottom: 10px; }
+
+.signup {
+  border: 2px solid #efcd5b;
+  background-color: transparent;
+  color: white; }
+
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto; }
+
+section, footer {
+  padding-right: 140px;
+  padding-left: 140px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center; }
+
+footer {
+  left: 0;
+  bottom: 0; }
+
+.wrapper1 {
+  /*background: rgb(225, 233, 236);*/
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  text-align: left; }
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px; }
+
+header {
+  background: #FCFCFC;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+header a {
+  color: #222;
+  text-decoration: none; }
+
+header h1 {
+  float: left;
+  margin: 8px; }
+
+header nav {
+  float: right; }
+
+header ul li {
+  float: left;
+  list-style: none;
+  margin: 0 10px;
+  text-transform: lowercase; }
+
+ul a:hover {
+  border-bottom: 3px solid #efcd5b;
+  padding-bottom: 10px; }
+
+footer a {
+  color: black; }
+
+footer {
+  clear: both;
+  background-color: #282a2b;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+
+footer.contact {
+  background: #2b2b2b;
+  color: white; }
+
+@media (max-width: 1000px) {
+  iframe {
+    width: 300px;
+    height: 300px; } }
+
+@media (max-width: 640px) {
+  header h1 {
+    font-size: 20px; } }
+
+@media (max-width: 500px) {
+  .wrapper {
+    margin: 0 1%;
+    width: 98%; }
+  header ul {
+    width: 100%; }
+  header ul li {
+    display: list-item; }
+  header h1 {
+    display: none; }
+  section {
+    text-align: center; }
+  .home img {
+    width: 100%;
+    margin: 0 auto; }
+  .photos img {
+    width: 100%;
+    margin-right: 0; }
+  .portfolio img {
+    width: 100%; }
+  #about {
+    background-color: white;
+    background-image: none;
+    height: 2300px; }
+  #food {
+    background-color: black;
+    background-image: none;
+    height: 2000px; }
+  .column1, .column2, .column3, .column4 {
+    width: 100%; }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; }
+  iframe {
+    width: 350px;
+    height: 300px; }
+  .galleryItem {
+    width: 100%;
+    /* full width */
+    height: 400px;
+    /* height of carousel */ }
+  .gallery {
+    width: 500px;
+    height: 400px; }
+  .beerbottle {
+    width: 250px;
+    height: 500px;
+    margin-left: 0; } }

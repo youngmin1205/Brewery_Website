@@ -1,0 +1,17 @@
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto; }
+
+section, footer {
+  padding-right: 140px;
+  padding-left: 140px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center; }
+
+.wrapper1 {
+  /*background: rgb(225, 233, 236);*/
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  text-align: left; }
